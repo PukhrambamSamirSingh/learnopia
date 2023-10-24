@@ -6,7 +6,6 @@ import { MdSearch } from "react-icons/md"
 import { Link, useNavigate } from "react-router-dom"
 import newRequests from "../utils/newRequests"
 import { UserContext } from "../context/UserContext"
-import ThemeBtn from "./ThemeBtn"
 
 const Navbar = () => {
     const { user } = useContext(UserContext)
@@ -61,7 +60,6 @@ const Navbar = () => {
                     )}
                 </div>
             )}
-            <ThemeBtn />
             {toggle && (
                 <div className="w-4/5 flex md:hidden fixed right-0 z-10">
                     <Menu />
