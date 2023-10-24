@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequests = axios.create({
-    baseURL: "https://learnopia-api.onrender.com:3000",
+    baseURL: "https://learnopia-api.onrender.com",
     withCredentials: true
 })
 

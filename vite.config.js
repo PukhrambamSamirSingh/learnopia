@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Define the NODE_ENV variable as "production"
-  // define: {
-  //   'process.env.NODE_ENV': JSON.stringify('production'),
-  // },
+  define: {
+    'process.env.NODE_ENV': JSON.stringify('production'),
+  },
 })
