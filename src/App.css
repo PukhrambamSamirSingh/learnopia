@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.gradient_background {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(164deg, rgba(255, 255, 255, 1) 0%, rgba(255, 246, 212, 1) 53%, rgba(246, 246, 246, 1) 100%);
+}
+
+.bg_nav {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(164deg, rgba(255, 255, 255, 1) 0%, rgba(251, 249, 240, 1) 53%, rgba(246, 246, 246, 1) 100%);
+}
+
+.gradient_text {
+  background: -webkit-linear-gradient(#001eff, #ff00cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
